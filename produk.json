@@ -1,0 +1,14 @@
+{
+  "baju": [
+    { "name": "Baju Metal", "price": 200000, "img": "assets/baju1.jpg" },
+    { "name": "Baju Gothic", "price": 180000, "img": "assets/baju2.jpg" }
+  ],
+  "celana": [
+    { "name": "Celana Punk", "price": 250000, "img": "assets/celana1.jpg" },
+    { "name": "Celana Skinny", "price": 230000, "img": "assets/celana2.jpg" }
+  ],
+  "aksesoris": [
+    { "name": "Kalung Skull", "price": 50000, "img": "assets/aksesoris1.jpg" },
+    { "name": "Gelang Metal", "price": 70000, "img": "assets/aksesoris2.jpg" }
+  ]
+}
