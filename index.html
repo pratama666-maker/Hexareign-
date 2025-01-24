@@ -29,4 +29,49 @@
 
     <!-- Tambahkan kategori produk lain (Celana, Aksesoris, dll) -->
   </body>
+</html><
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Pakaian Metal, Gothic, dan Punk</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Toko Pakaian Metal, Gothic, dan Punk</h1>
+      <nav>
+        <ul>
+          <li><a href="#baju">Baju</a></li>
+          <li><a href="#celana">Celana</a></li>
+          <li><a href="#aksesoris">Aksesoris</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="baju">
+      <h2>Produk Baju</h2>
+      <div class="product-container" id="baju-container"></div>
+    </section>
+
+    <section id="celana">
+      <h2>Produk Celana</h2>
+      <div class="product-container" id="celana-container"></div>
+    </section>
+
+    <section id="aksesoris">
+      <h2>Produk Aksesoris</h2>
+      <div class="product-container" id="aksesoris-container"></div>
+    </section>
+
+    <div class="cart">
+      <h2>Keranjang Belanja</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: <span id="total-price">Rp 0</span></p>
+      <button id="checkout">Checkout</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>
